@@ -19,7 +19,7 @@ This project automates the analysis of business performance data, providing insi
 - Analyzes trends across product lines and customer segments
 - **Auto-generates formatted Word reports** for stakeholder review
 
-### 📈 Conversion & Efficiency Calculator (`conversion_calculator.py`)
+### 📈 Conversion & Efficiency Calculator (`conversion.py`)
 - Processes activity data across multiple business channels
 - Calculates efficiency and conversion metrics by team member
 - Identifies top performers and flags areas for improvement
@@ -43,7 +43,7 @@ This project automates the analysis of business performance data, providing insi
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/business-analytics-suite.git
+git clone https://github.com/bri-sourcey/Business-Intelligence-Analytics-Suite.git
 
 # Install dependencies
 pip install pandas python-docx openpyxl
@@ -56,7 +56,7 @@ pip install pandas python-docx openpyxl
 python sales_analysis.py
 
 # Calculate conversion metrics
-python conversion_calculator.py
+python conversion.py
 
 # Generate weekly report
 python weekly_report.py
@@ -93,11 +93,10 @@ Efficiency Rating: 94.2%
 ## Project Structure
 
 ```
-business-analytics-suite/
+Business-Intelligence-Analytics-Suite/
 ├── sales_analysis.py        # Core performance analysis
-├── conversion_calculator.py # Efficiency metrics
+├── conversion.py            # Efficiency metrics
 ├── weekly_report.py         # Comprehensive reporting
-├── generate_sample_data.py  # Demo data generator
 └── README.md
 ```
 
